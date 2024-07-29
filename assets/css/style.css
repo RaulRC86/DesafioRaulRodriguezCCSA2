@@ -1,10 +1,10 @@
 body{text-align: center;}
-.header{grid-area: a; background-color: blue;}
-.main{grid-area: c; background-color: blueviolet;}
-.sidebar{grid-area: b; background-color: green;}
-.footer{grid-area: d; background-color: tomato;}
+header{grid-area: a; background-color: blue;}
+aside{grid-area: b; background-color: green;}
+main{grid-area: c; background-color: blueviolet;}
+footer{grid-area: d; background-color: tomato;}
 .grid-container{height: 100vh; display: grid; gap: 10px;
 grid-template-areas: "a a a a"
-                     "b b c c"
-                     "b b c c"
+                     "b c c c"
+                     "b c c c"
                      "d d d d"; }
