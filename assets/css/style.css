@@ -1,10 +1,15 @@
 body{text-align: center;}
-header{grid-area: a; background-color: blue;}
-aside{grid-area: b; background-color: green;}
-main{grid-area: c; background-color: blueviolet;}
-footer{grid-area: d; background-color: tomato;}
+header{grid-area: a; background-color: rgb(214, 214, 255);}
+aside{grid-area: b; background-color: rgb(218, 246, 218);}
+main{grid-area: c;}
+footer{grid-area: d; background-color: rgb(214, 214, 255);}
 .grid-container{height: 100vh; display: grid; gap: 10px;
 grid-template-areas: "a a a a"
                      "b c c c"
                      "b c c c"
                      "d d d d"; }
+.main-container{display: grid;
+                grid-template-columns: 3fr 1fr 2fr;
+                grid-auto-rows: 200px;
+                gap: 5px;}          
+img{width: 200px; height: 200px;}           
